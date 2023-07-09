@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Minecraft</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/Minecraft-Logo-PNG3.png" alt="Logo Minecraft">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Menu de mobs</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="enderman" data-name="Enderman" data-description="O enderman é uma criatura Negra de olhos roxos que podem teletransportar e pegar blocos. Endermans não são agressivos a menos que olhe para ele.....">
+            <img
+              src="./src/imagens/enderman logo.jpg"
+              alt="Personagem Enderman"
+            />
+          </li>
+          <li class="personagem" id="creeper" data-name="Creeper" data-description="Creepers são criaturas hostis fatais, comumente verdes que se aproximam silenciosamente de jogadores e explodem logo depois de chegar a 3 blocos de seus alvos, Não o deixe se aproximar....">
+            <img
+              src="./src/imagens/creeper logo.png"
+              alt="Personagem Creeper"
+            />
+          </li>
+
+          <li class="personagem" id="zombie" data-name="Zumbi" data-description="Zumbis são uns dos monstros mais famosos do Minecraft, sendo um dos primeiros a ser introduzidos. Uma versão morto-viva do jogador, eles caçam a noite, em busca de carne fresca e vida para devorar…">
+            <img
+              src="./src/imagens/zombie icon1.jpg"
+              alt="Personagem Zumbi"
+            />
+          </li>
+
+          <li class="personagem" id="pigman" data-name="Pigman" data-description="Zumbi-Pigman é uma criatura neutra comum, que vive no Nether e tem uma espada de ouro equipada, Os piglin-zumbi não são inicialmente hostis, Mas se atacar um deles, todos virão ao ataque...">
+            <img
+              src="./src/imagens/pigman1.png"
+              alt="Personagem Pigman"
+            />
+          </li>
+
+          <li class="personagem" id="esqueleto" data-name="Esqueleto" data-description="Esqueleto são criaturas hostis equipadas com arcos e compostos somente de ossos. Esqueletos aparecem a noite e são hostis, voce nao gostaria de ser atingido por suas flechas...">
+            <img
+              src="./src/imagens/esqueleto logo.png"
+              alt="Personagem Esqueleto"
+            />
+          </li>
+
+          <li class="personagem" id="aranha" data-name="Aranha" data-description="A aranha é um mob que durante o dia e em areas iluminadas é pacifico a menos que o ataque, mas a noite é um Mob hostil, Suas rapidas investidas dão medo...">
+            <img
+              src="./src/imagens/spider logo.jpg"
+              alt="Personagem Aranha"
+            />
+          </li>
+
+          <li class="personagem" id="aldeão" data-name="Aldeão" data-description="Os aldeões são criaturas passivas que habitam vilas, trabalham, procriam e interagem. Um jogador pode negociar com aldeões, usando esmeraldas como moeda de comercialização. São bons samaritanos">
+            <img
+              src="./src/imagens/villager icon.png"
+              alt="Personagem Aldeão"
+            />
+          </li>
+
+          <li class="personagem" id="slime" data-name="Slime" data-description="O Slime é Um monstro criado com uma espécie de gelatina verde, que ataca o jogador assim que o enxerga. Ao morrer o slime se divide em pedaços cada vez menores, quanto mais voce o ataca, maior o pesadelo....">
+            <img
+              src="./src/imagens/slime icon.png"
+              alt="Personagem Slime"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/grande-enderman.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Enderman</h2>
+          <p class="descricao-personagem" id="descricao-personagem">O enderman é uma criatura Negra de olhos roxos que podem teletransportar e pegar blocos. Endermans não são agressivos a menos que olhe para ele.....
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
